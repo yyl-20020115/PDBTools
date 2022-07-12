@@ -87,5 +87,10 @@ void fatal(char *format, ...)
 
 int main(int argc, char* argv[]) 
 {
+    if (argc >= 3) 
+    {
+        //argv[0] = exe path.
+        FConvertOmfToCoff(argv[1], argv[2]);
+    }
     return 0;
 }

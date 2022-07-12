@@ -11,10 +11,6 @@
 *
 *
 ***********************************************************************/
-#ifndef NULL
-#define NULL 0
-#endif
-
 #include "lego.h"
 #include "legop.h"
 
